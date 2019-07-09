@@ -13,9 +13,10 @@ namespace MVCDemo.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AboutMe()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This page is meant to provide some information about my professional skills, " +
+                "interests, and activities.";
 
             return View();
         }
