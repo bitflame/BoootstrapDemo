@@ -10,7 +10,10 @@ namespace MVCDemo.Models
 {
     public static class DapperORM
     {
-        private static string connectionString = @"Server=DESKTOP-DOO10OU;Database=DapperDB;Trusted_Connection=True;";
+        //local host connection string
+        //private static string connectionString = @"Server=DESKTOP-DOO10OU;Database=DapperDB;Trusted_Connection=True;";
+        //Somee connection string
+        private static string connectionString = @"workstation id=DapperDB.mssql.somee.com;packet size=4096;user id=samuel_SQLLogin_1;pwd=ryqk2wgkkw;data source=DapperDB.mssql.somee.com;persist security info=False;initial catalog=DapperDB";
         public static void ExecuteWithoutReturn(string procedureName, DynamicParameters param = null)
         {
             using (SqlConnection sqlCon = new SqlConnection(connectionString))
