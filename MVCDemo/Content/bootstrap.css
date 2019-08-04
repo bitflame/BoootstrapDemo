@@ -5051,7 +5051,7 @@ a.badge:focus {
     background-image: url('../images/buddha-1564179404233-4721.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:auto;
+    background-size:cover;
     padding-top: 0px;
     padding-bottom: 0px;
     background-color: transparent;
@@ -5059,6 +5059,7 @@ a.badge:focus {
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+  padding-top:30px;
 }
 .jumbotron p {
   margin-bottom: 15px;
