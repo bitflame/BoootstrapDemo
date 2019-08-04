@@ -1,9 +1,11 @@
 ﻿body {
     /*background-image: url(https://banner2.kisspng.com/20180126/xze/kisspng-cartoon-buddhism-buddha-s-birthday-bhikkhu-buddha-smiling-with-folded-hands-vector-material-5a6b89b11079b6.1467250115169970410675.jpg);*/
-    background-image: url('../images/buddha-1564179404233-4721.jpg');
-    background-position: center;
+    /*background-image: url('../images/buddha-1564179404233-4721.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
     padding-top: 450px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;*/
 }
 
 /* Set padding to keep content from hitting the edges */
