@@ -11,8 +11,10 @@ html {
 }
 body {
     margin: 0;
-   
-    
+    background-image: url('../images/buddha-1564179404233-4721.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
 }
 article,
 aside,
@@ -1673,7 +1675,7 @@ pre code {
 .col-sm-11,
 .col-md-11,
 .col-lg-11,
-.col-xs-12,
+.col-xs-12 
 .col-sm-12,
 .col-md-12,
 .col-lg-12 {
@@ -5048,13 +5050,13 @@ a.badge:focus {
     margin-bottom: 30px;*/
     color: inherit;
     /*background-color: #eeeeee;*/
-    background-image: url('../images/buddha-1564179404233-4721.jpg');
+    /*background-image: url('../images/buddha-1564179404233-4721.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: transparent;
+    background-color: transparent;*/
 }
 .jumbotron h1,
 .jumbotron .h1 {

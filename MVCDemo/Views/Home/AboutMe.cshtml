@@ -3,17 +3,28 @@
 }*@
 @*<h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>*@
-    <body style="background-image: none;">
-        <p style="color:black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align:justify; 
-           word-wrap:break-word; max-width:950px">
-            I have devoted all of my time since 2015 to developing .Net applications using C# with Windows Presentation Foundation, ASP.NET,
-            and WinForms User Interface. I have over 25 years of experience with the IT industry, and worked with major ISPs as well as Federal
-            Government.
-        </p>
+
+    <body style="background-image: none">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <pre style="padding:50px 0px 0px 0px; margin: 0 0 0 0; text-align: justify; 
+                     font-family:georgia,garamond,serif;font-style:italic;">
+                    I have devoted all of my time since 2015 to developing .Net applications using C# with Windows Presentation Foundation, ASP.NET,
+                    and WinForms User Interface. I have over 25 years of experience with the IT industry, and worked with major ISPs as well as Federal
+                    Government. This site is a small demo showcasing a mobile first web site leveraging responsive funvtionality in ASP.NET MVC.
+                </pre>
+                    <img class="img-responsive" src="~/Content/1.jpg" width="1000" height="1000" />
+                </div>
+            </div>
+        </div>
+     
+
         @*<pre style="max-width:1000px">
           I have devoted all of my time since 2015 to developing .Net applications using C# with Windows Presentation Foundation, ASP.NET, and WinForms User Interface. I have over 25 years of experience with the IT industry, and worked with major ISPs as well as Federal Government.
         </pre>*@
         @*<img src="@Url.Content("~/Content/1.jpg")" width="1000" height="3000" />*@
-        <img style="border:groove; border-width:5px; " src="~/Content/1.jpg" width="1000" height="3000" />
+        @*<img style="border:groove; border-width:5px; " src="~/Content/1.jpg" width="1000" height="3000" />*@
+        
     </body>
 
