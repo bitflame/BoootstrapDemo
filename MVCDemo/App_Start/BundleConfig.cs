@@ -8,6 +8,12 @@ namespace MVCDemo
         // For more information on bundling, visit https://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            // I learned about the line below at https://www.stevefenton.co.uk/2019/03/minification-failed-returning-unminified-contents/
+            // I kept getting an error stating: "minification failed".
+            Bundle preMinified = new Bundle("~/Scripts/gtag").Include("~/Scripts/gtag.js");
+
+            bundles.Add(preMinified);
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -25,6 +31,7 @@ namespace MVCDemo
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
         }
     }
 }
